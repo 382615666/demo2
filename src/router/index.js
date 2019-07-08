@@ -1,8 +1,3 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-
-Vue.use(VueRouter)
-
 const routes = [
   {
     path: '/',
@@ -17,8 +12,5 @@ const routes = [
   }
 ]
 
-window.demo2routes = routes
 
-export default new VueRouter({
-  routes
-})
+export default routes
