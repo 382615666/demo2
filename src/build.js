@@ -1,2 +1,7 @@
 import routes from './router'
-window.demo2routes = routes
+
+window.jw = window.jw || {
+  routes: []
+}
+
+window.jw.routes.concat(routes)
