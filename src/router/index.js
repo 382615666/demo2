@@ -6,7 +6,7 @@ const routes = [
     children: [
       {
         path: 'test',
-        component: () => import('@/app/index')
+        component: () => import('@/app/test')
       }
     ]
   }
