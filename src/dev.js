@@ -13,7 +13,20 @@ let router = new VueRouter({
   routes
 })
 
-new Vue({
+window.testvue = new Vue({
   router,
   render: h => h(App),
 }).$mount('#app')
+
+window.testvue.$router.addRoutes([
+  {
+    path: '/',
+    component: () => import('@/app/layout'),
+    children: [
+      {
+        path: 'heihei',
+        component: () => import('@/app/heihei')
+      }
+    ]
+  }
+])
