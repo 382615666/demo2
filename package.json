@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "element-ui": "^2.10.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "mint-ui": "^2.2.13"
